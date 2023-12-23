@@ -5,13 +5,14 @@ import pandas as pd
 import numpy as np
 from tkinter import Tk
 from dateutil.relativedelta import relativedelta
-
+"modificacion"
 conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:\Users\PabloGodin\EMPLEADOS.mdb;')
 cursor = conn.cursor()
 now = datetime.now()
 t = timedelta(365.2)
 t2 = timedelta(20)
 #Clases
+"sakjfasjfasojf"
 class Empleado:
     def __init__(self, id_usuario,nombre_usuario, apellido_usuario, fecha_ingreso):
         self.id_usuario = id_usuario
@@ -20,10 +21,10 @@ class Empleado:
         self.fecha_ingreso = fecha_ingreso
         self.antiguedad = calculo_dias_correspondientes
         pass
-
-
+"commited"
+"asidjasidjajsid"
 #Funciones:
-
+"asdasd"
 #'feriados cuentan?'
 def calcular_dias_habiles(fecha_inicio, fecha_fin):   
     
